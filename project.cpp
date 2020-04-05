@@ -61,7 +61,7 @@ void mouseCallback(ObjectID object, int x, int y, MouseAction action) {
 		enterScene(scene2);
 	}
 
-	//이미지12를 눌렀을때 
+	//이미지12를 눌렀을때 ?
 	if (object == board[1][2]) {
 		locateObject(board[1][2], scene2, boardX[2][2], boardY[2][2]);
 		locateObject(board[2][2], scene2, boardX[2][1], board[2][1]);
